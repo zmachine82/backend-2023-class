@@ -28,7 +28,6 @@ class Deviation
     if @deviation_key != 0
       return @deviation_key
     end
-    deviation_key = @deviation_key
 
     @orig_key > 0 ? @deviation_key + 1 : @deviation_key - 1
   end
