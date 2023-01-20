@@ -1,3 +1,5 @@
+require_relative "./sort_file"
+
 class SourceFolder
     def initialize(path)
         @path = path

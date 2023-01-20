@@ -20,7 +20,7 @@ RSpec.describe CypherService do
 
     expect(result).to eq("bcd")
 
-    File.delete(file_name)
+    File.delete("test.txt")
 
   end
 
@@ -41,7 +41,7 @@ RSpec.describe CypherService do
 
     expect(result).to eq("abc")
 
-    File.delete(file_name)
+    File.delete("test.txt")
 
   end
   

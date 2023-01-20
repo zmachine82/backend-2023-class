@@ -1,6 +1,6 @@
 require_relative "../lib/sort_file"
 
-RSpec.fdescribe SortFile do
+RSpec.describe SortFile do
   it 'should tell us if does not exists' do
     file = SortFile.new("wow.jpg")
     expect(file.exists?).to eq(false)
