@@ -42,6 +42,7 @@ GEM
       rspec-support (~> 3.12.0)
     rspec-support (3.12.0)
     rufo (0.13.0)
+    sqlite3 (1.6.0-x64-mingw-ucrt)
     super_module (1.4.1)
       method_source (>= 0.8.2, < 1.1.0)
 
@@ -52,6 +53,7 @@ DEPENDENCIES
   glimmer-dsl-libui
   rspec
   rufo
+  sqlite3
 
 BUNDLED WITH
    2.4.3
